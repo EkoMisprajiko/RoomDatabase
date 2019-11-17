@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".tambah_data.TambahDataActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Data Mahasiswa"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="Nama Mahasiswa"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"></EditText>
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/et_nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="NIM"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"></EditText>
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/et_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Alamat"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"></EditText>
+
+    <Button
+        android:id="@+id/btn_submit"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Tambah"
+        android:textSize="20sp"
+        android:textStyle="bold"></Button>
+
+</LinearLayout>
